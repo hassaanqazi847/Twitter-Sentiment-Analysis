@@ -32,17 +32,18 @@ This project focuses on Twitter sentiment analysis by leveraging Long Short-Term
 ---
 
 🤖 **Model Architecture (LSTM)**
-The sentiment classifier is built using Keras/TensorFlow with the following architecture:
 
-Embedding Layer – converts tokens into dense vectors.
+- The sentiment classifier is built using Keras/TensorFlow with the following architecture:
 
-LSTM Layer(s) – captures sequential dependencies and contextual meaning.
+- Embedding Layer – converts tokens into dense vectors.
 
-Dense Layer (Softmax Activation) – outputs class probabilities.
+- LSTM Layer(s) – captures sequential dependencies and contextual meaning.
 
-Loss Function: Categorical Cross-Entropy
-Optimizer: Adam
-Evaluation Metrics: Accuracy, Precision, Recall, F1-score
+- Dense Layer (Softmax Activation) – outputs class probabilities.
+
+- Loss Function: Categorical Cross-Entropy
+- Optimizer: Adam
+- Evaluation Metrics: Accuracy, Precision, Recall, F1-score
 
 ---
 
