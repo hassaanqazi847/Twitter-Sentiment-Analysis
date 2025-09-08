@@ -8,13 +8,13 @@ This project focuses on Twitter sentiment analysis by leveraging Long Short-Term
 
 🎯 **Objectives**
 
-Preprocess raw Twitter text (cleaning, tokenization, embeddings).
+- Preprocess raw Twitter text (cleaning, tokenization, embeddings).
 
-Train an LSTM model for sequence classification.
+- Train an LSTM model for sequence classification.
 
-Evaluate the model’s performance using standard metrics (accuracy, precision, recall, F1-score).
+- Evaluate the model’s performance using standard metrics (accuracy, precision, recall, F1-score).
 
-Provide predictions for unseen tweets.
+- Provide predictions for unseen tweets.
 
 ---
 
