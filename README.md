@@ -49,35 +49,31 @@ This project focuses on Twitter sentiment analysis by leveraging Long Short-Term
 
 📦 **Dependencies**
 
-Python 3.8+
-
 TensorFlow / Keras
 
 NumPy
 
 Pandas
 
-Matplotlib / Seaborn
-
-NLTK / SpaCy (for text preprocessing)
+Matplotlib / seaborn
 
 ---
 
 🌍 **Real-World Applications**
 
-Twitter sentiment analysis has a wide range of real-world use cases across industries:
+ - Twitter sentiment analysis has a wide range of real-world use cases across industries:
 
-Business & Marketing 🏢 – Companies analyze customer feedback and brand mentions to improve products and campaigns.
+ - Business & Marketing 🏢 – Companies analyze customer feedback and brand mentions to improve products and campaigns.
 
-Politics & Elections 🗳 – Measuring public opinion on leaders, parties, or policies in real time.
+ - Politics & Elections 🗳 – Measuring public opinion on leaders, parties, or policies in real time.
 
-Finance & Stock Market 📈 – Sentiment-driven trading algorithms use social media opinions to predict stock price movements or cryptocurrency trends.
+ - Finance & Stock Market 📈 – Sentiment-driven trading algorithms use social media opinions to predict stock price movements or cryptocurrency trends.
 
-Customer Support 💬 – Identifying negative feedback quickly to provide faster responses and improve user satisfaction.
+ - Customer Support 💬 – Identifying negative feedback quickly to provide faster responses and improve user satisfaction.
 
-Entertainment & Media 🎬 – Tracking audience reactions to movies, shows, music, or events.
+ - Entertainment & Media 🎬 – Tracking audience reactions to movies, shows, music, or events.
 
-Crisis Management 🚨 – Governments and NGOs monitor sentiments during natural disasters, pandemics, or emergencies to understand public concerns.
+ - Crisis Management 🚨 – Governments and NGOs monitor sentiments during natural disasters, pandemics, or emergencies to understand public concerns.
 
 ---
 
