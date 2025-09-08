@@ -49,13 +49,13 @@ This project focuses on Twitter sentiment analysis by leveraging Long Short-Term
 
 📦 **Dependencies**
 
-TensorFlow / Keras
+- TensorFlow / Keras
 
-NumPy
+- NumPy
 
-Pandas
+- Pandas
 
-Matplotlib / seaborn
+- Matplotlib / seaborn
 
 ---
 
