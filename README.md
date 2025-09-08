@@ -3,6 +3,8 @@
 
 This project focuses on Twitter sentiment analysis by leveraging Long Short-Term Memory (LSTM) neural networks. The goal is to classify tweets into positive, negative, or neutral sentiments based on their textual content. Twitter data contains slang, abbreviations, and emojis, which makes sentiment classification a challenging and interesting Natural Language Processing (NLP) task.
 
+---
+
 🎯 **Objectives**
 
 Preprocess raw Twitter text (cleaning, tokenization, embeddings).
@@ -13,21 +15,20 @@ Evaluate the model’s performance using standard metrics (accuracy, precision, 
 
 Provide predictions for unseen tweets.
 
+---
+
 🔧 **Data Preprocessing**
 
-Text Cleaning
+- Text Cleaning
+    - Removed stopwords, URLs, mentions (@user), hashtags (#topic), numbers, and special characters.
+    - Converted text to lowercase.
+    - Handled emojis and contractions.
 
-Removed stopwords, URLs, mentions (@user), hashtags (#topic), numbers, and special characters.
+- Tokenization & Padding
+    - Tokenized tweets into word sequences.
+    - Applied padding to ensure equal input lengths.
 
-Converted text to lowercase.
-
-Handled emojis and contractions.
-
-Tokenization & Padding
-
-Tokenized tweets into word sequences.
-
-Applied padding to ensure equal input lengths.
+---
 
 The sentiment classifier is built using Keras/TensorFlow with the following architecture:
 
@@ -40,6 +41,8 @@ Dense Layer (Softmax Activation) – outputs class probabilities.
 Loss Function: Categorical Cross-Entropy
 Optimizer: Adam
 Evaluation Metrics: Accuracy, Precision, Recall, F1-score
+
+---
 
 📦 **Dependencies**
 
@@ -54,6 +57,8 @@ Pandas
 Matplotlib / Seaborn
 
 NLTK / SpaCy (for text preprocessing)
+
+---
 
 🌍 **Real-World Applications**
 
@@ -70,6 +75,8 @@ Customer Support 💬 – Identifying negative feedback quickly to provide faste
 Entertainment & Media 🎬 – Tracking audience reactions to movies, shows, music, or events.
 
 Crisis Management 🚨 – Governments and NGOs monitor sentiments during natural disasters, pandemics, or emergencies to understand public concerns.
+
+---
 
 **Conclusion**
 In this project, we successfully built a Twitter Sentiment Analysis model using LSTMs to classify tweets into positive, negative, and neutral categories. By applying data preprocessing, tokenization, and word embeddings, the model was able to capture the context of informal Twitter text effectively. The LSTM architecture proved useful in handling sequential dependencies in language, delivering reliable sentiment predictions.
