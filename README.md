@@ -31,6 +31,7 @@ This project focuses on Twitter sentiment analysis by leveraging Long Short-Term
 
 ---
 
+🤖 **Model Architecture (LSTM)**
 The sentiment classifier is built using Keras/TensorFlow with the following architecture:
 
 Embedding Layer – converts tokens into dense vectors.
